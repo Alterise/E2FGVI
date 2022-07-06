@@ -22,5 +22,5 @@ RUN gdown https://drive.google.com/uc?id=10wGdKSUOie0XmCr8SQ2A2FeDe-mfn5w3 -O re
 
 RUN pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.11.0/index.html
 
-
+ENTRYPOINT ["python", "test.py"]
 
